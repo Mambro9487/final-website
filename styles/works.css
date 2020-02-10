@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20pt;
+    font-weight: 500;
+    max-width: 1400;
+}
+.header{
+    color: white;
+    height: 50vh;
+    background-image: linear-gradient(to right bottom,#15fd3070,#15eafd4b),url(../images/ps4-controller.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    opacity: .5;
+    
+}
+.name-container{
+    font-size: 40pt;
+    font-weight: 600;
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    float: left;
+    padding:10,0 ;
+}
+nav{
+    float: right;
+    font-size: 30px;
+    font-weight: 300;
+    margin-right: auto;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 35px;
+    margin-right: 50px;
+    position: relative;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+}
+
+nav a:hover{
+    color: cyan;
+}
+
+   
+   
+ h1{
+        text-align: center;
+        padding: 20px;
+        margin: auto;
+        text-transform: uppercase;
+        font-size: 65pt;
+        
+    }
+.images-grid{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10px;
+}
+.image-content{
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 25%;
+    
+}
+.images-size{
+    height: 790px;
+    width: 700px;
+}
+
+
+
+@media screen and (max-width: 1250px) {
+    /* Remove image on smaller screens */
+
+    
+    .name-container{
+       font-size: 20pt; 
+    }
+    .heading-main{
+        font-size: 25pt;
+        text-align: center;
+    }
+    .heading-subsection{
+        font-size: 15pt;
+        text-align: center;
+    }
+
+    .nav-container{
+        font-size: 20pt;
+        font-weight: 400;
+    }
+
+   nav a{
+       font-size: 20pt;
+       font-weight: 400;
+   }
+   .image-content{
+       flex: 25%;
+       max-width: 50%;
+   }
+h1{
+    font-size: 25pt;
+    font-weight: 300;
+    text-align: center;
+}
+
+  }

@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20pt;
+    font-weight: 500;
+    max-width: 1400;
+}
+.header{
+    color: white;
+    height: 50vh;
+    background-image: linear-gradient(to left bottom,#15fd3070,#15eafd4b),url(../images/soccer-field.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+.name-container{
+    font-size: 40pt;
+    font-weight: 600;
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    float: left;
+    padding:10,0 ;
+}
+nav{
+    float: right;
+    font-size: 30px;
+    font-weight: 300;
+    margin-right: auto;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 35px;
+    margin-right: 50px;
+    position: relative;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+}
+
+nav a:hover{
+    color: cyan;
+}
+* Full-width input fields */
+input[type="text"],
+input[type="password"],
+textarea,
+select {
+  font-size: 16px;
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 16px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Input fields on focus*/
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.contact-us-outer-container {
+  color: black;
+}
+
+.contact-us-inner-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.radio-input {
+  margin: 15px;
+}
+.select-box {
+  height: 60px;
+}
+
+.submit-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.submit-button:hover {
+  opacity: 1;
+}
+
+.heading-container {
+  text-align: center;
+}
+
+.contact-us-heading {
+  font-size: 30px;
+}
+
+.field-container {
+  margin: 10px;
+}
+
+.form-container {
+  margin: 20px;
+}
+.body-section{
+    font-weight: 300;
+    font-size: 30px;
+    text-align: center;
+}
+@media screen and (max-width: 1250px) {
+  /* Remove image on smaller screens */
+
+  
+  .name-container{
+     font-size: 20pt; 
+  }
+  .heading-main{
+      font-size: 25pt;
+      text-align: center;
+  }
+  .heading-subsection{
+      font-size: 15pt;
+      text-align: center;
+  }
+
+  .nav-container{
+      font-size: 20pt;
+      font-weight: 400;
+  }
+
+ nav a{
+     font-size: 20pt;
+     font-weight: 400;
+ }
+}
